@@ -1,15 +1,9 @@
 package ru.sevumyan.arsen.database;
 
-import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.lib.RepositoryBuilder;
-import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
-
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
-
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;

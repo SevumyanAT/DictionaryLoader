@@ -31,7 +31,7 @@ public class ConsoleProgram {
                     case 5 -> dbManagement.displayPaidSalary();
                     case 6 -> dbManagement.displayAbsence();
                     case 7 -> {
-                        EmployeeInput employeeInput = new EmployeeInput();
+                        EmployeeInput employeeInput = EmployeeInput.getInstance();
                         Employee employee = employeeInput.employeeRead(sc);
                         dbManagement.employeeInput(employee);
                     }
